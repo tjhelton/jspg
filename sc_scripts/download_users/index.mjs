@@ -28,7 +28,7 @@ async function getUsers(url){
 
 const resultz = await getUsers('https://api.safetyculture.io/feed/users');
 
-// console.log(resultz);
+console.log(resultz);
 
 
 
