@@ -1,6 +1,5 @@
-
-// const auditId = process.argv[2];
-// const bearerToken = process.argv[3];
+const auditId = process.argv[2];
+const bearerToken = process.argv[3];
 
 async function getAnswers() {
     const options = {
@@ -19,6 +18,4 @@ async function getAnswers() {
 
 const res = await getAnswers();
 
-console.log(res)
-
-// getAnswers();
+console.log(res);
